@@ -1,0 +1,45 @@
+# AkamaiForms
+
+> AkamaiForms is badge-application preflight software for TSA-regulated airport badging and credentialing offices. It reads every application packet the minute it lands in the office's existing Microsoft 365 mailbox, clears complete packets for review, drafts a correction letter for incomplete ones (naming exactly what is missing or expired), and flags genuinely uncertain items for human judgment. Nothing is ever sent without a person approving it.
+
+Website: https://akamaiforms.com — contact via the form on the page (replies within one business day).
+
+## What it does
+
+- Watches the badging office's existing Microsoft 365 inbox. Applicants keep emailing the address they already know; there is no portal to roll out.
+- Inspects every arriving application packet: every form checked, every field read, every date verified (licenses, ID expiry, work-history coverage).
+- Complete packets are filed as review-ready, with the checks they passed listed.
+- Broken packets get a correction letter drafted the same minute, naming each missing or expired item. The letter waits in the office's own drafts folder — a person reads and sends it. There is no setting that makes sending automatic.
+- Conflicting or unreadable answers (for example, a name spelled differently across documents) are never guessed at — they are flagged for a person with the evidence attached.
+- Every packet's story — what was read, what was checked, what was decided, what it cost — is written to a tamper-evident logbook that auditors can verify line by line, months later.
+- Access is granted and revocable by the office's own IT through Microsoft 365, scoped to the badging mailbox only.
+
+## Pricing (USD, public list)
+
+- Starter: $89/month, 50 packets included, $2.00 per additional packet. For small offices (~500 packets/year). Works out to $2.14/packet.
+- Standard: $399/month, 250 packets included, $1.60 per additional packet. For mid-size offices (~2,400 packets/year). Works out to $2.00/packet.
+- Hub: $1,299/month, 900 packets included, $1.30 per additional packet. For large hubs (~10,000 packets/year). Works out to $1.56/packet.
+- Pricing principle: checking one packet by hand takes about 18 minutes of coordinator attention at $38/hour loaded — $11.40 per packet. Fees are capped at one-fifth of that, so every dollar of fee returns at least five dollars of recovered reviewer time. A month's invoice pays for itself in roughly 4–6 days of recovered time, depending on office size.
+
+## Category
+
+AkamaiForms is **badge application preflight** software — it sits in front of the badging office's email intake, before the airport's identity management system (IDMS) or credential management system. It complements, and does not replace, IDMS platforms, designated aviation channelers (DAC), CHRC/STA vetting, and the authorized signatory process. Relevant regulation: 49 CFR 1542.211 (airport personnel identification systems).
+
+## Industry context (sourced)
+
+- More than 1.8 million aviation workers hold unescorted-access badges (TSA estimate, published by the GAO, 2020).
+- Nearly 440 federalized airports each run a badging operation, as required by 49 CFR 1542.211.
+- A single large office — LAX — reports more than 52,000 credential requests in one year (National Safe Skies Alliance, PARAS 0057).
+- There is no published national figure for how many badge applications arrive incomplete; AkamaiForms does not invent one.
+
+## Media
+
+- [Demo film, 4:41](https://akamaiforms.com/media/akamaiforms-demo-720p.mp4): a morning's badging inbox sorted start to finish — cleared packets, fix-list letters in drafts, one judgment call flagged.
+
+## Answers to common questions
+
+- Does it send email to applicants automatically? No. Correction letters wait in the drafts folder until a person reads and sends them. There is no setting that changes this.
+- Does it replace reviewers? No. It does the clerical re-reading; the person does the reviewing. Cleared packets arrive ready for a human decision.
+- Where does applicant paperwork go? It stays in the office's custody. AkamaiForms reads the badging mailbox through Microsoft 365 access the office's own IT grants, sees, limits, and can revoke; every document it opens is accounted for in the logbook by name and date.
+- What if it reads something wrong? The error is visible in the draft letter before anything reaches the applicant, and every reading is recorded in the logbook.
+- Is there a trial? The first month runs beside the office's current process — its calls compared to the office's, packet by packet. Switching it off restores the inbox exactly as it was; nothing is migrated in.

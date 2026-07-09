@@ -1,0 +1,28 @@
+# akamaiforms.com — all crawlers welcome, including AI assistants.
+# Machine-readable summary for LLM agents: https://akamaiforms.com/llms.txt
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://akamaiforms.com/sitemap.xml
