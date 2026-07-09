@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OG frame</title>
+<style>
+  @font-face { font-family: "B612"; src: url("fonts/b612-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "B612 Mono"; src: url("fonts/b612-mono-latin-400-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Public Sans"; src: url("fonts/public-sans-latin-400-normal.woff2") format("woff2"); }
+  * { margin: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px;
+    background: #fbfdfc;
+    font-family: "Public Sans", sans-serif;
+    color: #1a211e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 72px 84px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; font-family: "B612"; font-weight: 700; font-size: 30px; letter-spacing: 0.05em; }
+  .brand em { font-style: normal; color: #008573; }
+  .plane { width: 30px; height: 30px; fill: #12a594; }
+  h1 { font-family: "B612"; font-weight: 700; font-size: 88px; line-height: 1.04; letter-spacing: -0.015em; }
+  .underlined { position: relative; display: inline-block; }
+  .rule { position: absolute; left: -1%; right: -1%; bottom: -0.12em; width: 102%; height: 0.26em; overflow: visible; }
+  .rule path { stroke: #12a594; stroke-width: 7; fill: none; stroke-linecap: round; }
+  .strip { display: flex; gap: 34px; font-family: "B612 Mono"; font-size: 19px; color: #5f6563; align-items: center; }
+  .strip span { display: inline-flex; align-items: center; gap: 11px; white-space: nowrap; }
+  .dot { width: 14px; height: 14px; border-radius: 50%; }
+</style>
+</head>
+<body>
+  <div class="brand">
+    <svg class="plane" viewBox="0 0 24 24"><path d="M2.5 12 21 3.5 14.5 21l-3.9-6.1L2.5 12Zm8.9 2.4 2.6 4.1 4.3-11.9-6.9 7.8Zm6.2-8.6L5.8 11.6l4.6 1.7 7.2-7.5Z"/></svg>
+    Akamai<em>Forms</em>
+  </div>
+  <h1>Your badging inbox,<br><span class="underlined">already sorted.<svg class="rule" viewBox="0 0 300 22" preserveAspectRatio="none"><path d="M4 14 C 60 8, 150 20, 296 10"/></svg></span></h1>
+  <div class="strip">
+    <span><i class="dot" style="background:#46a758"></i>Review ready</span>
+    <span><i class="dot" style="background:#ffc53d"></i>Fix list drafted</span>
+    <span><i class="dot" style="background:#5b5bd6"></i>For your judgment</span>
+    <span style="margin-left:auto">Every submission. Review ready.</span>
+  </div>
+</body>
+</html>

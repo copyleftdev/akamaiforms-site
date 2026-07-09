@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AkamaiForms — Your badging inbox, already sorted</title>
+  <meta name="description" content="AkamaiForms reads every badge application the minute it lands in your Microsoft 365 mailbox — clears the complete packets, writes the fix list for the broken ones, and flags the judgment calls. Nothing sends without a person approving it, and each month's invoice pays for itself inside six days of recovered time.">
+  <link rel="canonical" href="https://akamaiforms.com/">
+  <meta name="theme-color" content="#fbfdfc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101211" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AkamaiForms — Every submission. Review ready.">
+  <meta property="og:description" content="Every badge application inspected the minute it lands in your Microsoft 365 mailbox. Cleared, corrected, or flagged — and nothing sends without you.">
+  <meta property="og:image" content="https://akamaiforms.com/og.png">
+  <meta property="og:url" content="https://akamaiforms.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="AkamaiForms — home">
+    <svg class="plane" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12 21 3.5 14.5 21l-3.9-6.1L2.5 12Zm8.9 2.4 2.6 4.1 4.3-11.9-6.9 7.8Zm6.2-8.6L5.8 11.6l4.6 1.7 7.2-7.5Z"/></svg>
+    Akamai<em>Forms</em>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#friction">The inbox</a>
+    <a href="#changes">What changes</a>
+    <a href="#arithmetic">The arithmetic</a>
+    <a href="#pricing">Pricing</a>
+  </nav>
+  <button class="theme-toggle" id="theme-toggle" aria-label="Switch color theme">
+    <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.8v2.6M12 18.6v2.6M2.8 12h2.6M18.6 12h2.6M5.5 5.5l1.8 1.8M16.7 16.7l1.8 1.8M18.5 5.5l-1.8 1.8M7.3 16.7l-1.8 1.8" stroke-width="1.8" stroke-linecap="round" fill="none" stroke="currentColor"/></svg>
+    <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/></svg>
+  </button>
+  <a class="btn btn-quiet topbar-cta" href="#contact">Contact</a>
+</header>
+
+<main id="top">
+
+  <!-- ============ hero ============ -->
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="kicker">For airport badging &amp; credentialing offices</p>
+      <h1>Your badging inbox,<br><span class="underlined">already sorted.<svg class="rule" viewBox="0 0 300 22" aria-hidden="true" preserveAspectRatio="none"><path class="rule-path" d="M4 14 C 60 8, 150 20, 296 10" fill="none" stroke-linecap="round"/></svg></span></h1>
+      <p class="lede">AkamaiForms reads every application packet the minute it lands in the
+      Microsoft&nbsp;365 mailbox you already run. Complete packets are cleared and waiting.
+      Broken ones get a fix list — a correction letter drafted the same minute, naming exactly
+      what's missing. Judgment calls are flagged for you.</p>
+      <p class="lede-strong">Nothing is ever sent without a person approving it.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#demo">Watch the 3-minute demo</a>
+        <a class="btn btn-quiet" href="#contact">Talk to the team</a>
+      </div>
+      <p class="trust-line">Built for TSA-regulated badging offices. No new portal — applicants keep emailing
+      the mailbox they already know. Each month's invoice pays for itself inside six days of
+      recovered time.</p>
+    </div>
+
+    <!-- the product is the visual: an inbox sorting itself -->
+    <figure class="sorter" aria-label="Illustration: incoming applications sorting into three groups — review ready, needs correction, and for your judgment">
+      <div class="sorter-head">
+        <span class="sorter-title">badging@your&#8209;airport.gov</span>
+        <span class="sorter-sub">this morning</span>
+      </div>
+      <div class="sorter-group ok">
+        <h3><svg viewBox="0 0 15 15" class="mark" aria-hidden="true"><path d="M2 8.4 6 12 13 3.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Review ready <span class="count">4</span></h3>
+        <div class="srow" style="--i:1"><span class="dot ok"></span><span class="who">K.&nbsp;Nakamura</span><span class="what">Badge application — 6 attachments</span><span class="when">7:42</span></div>
+        <div class="srow" style="--i:3"><span class="dot ok"></span><span class="who">R.&nbsp;Delacruz</span><span class="what">SIDA renewal</span><span class="when">7:58</span></div>
+        <div class="srow" style="--i:5"><span class="dot ok"></span><span class="who">M.&nbsp;Tanaka</span><span class="what">New hire packet — complete</span><span class="when">8:15</span></div>
+        <div class="srow" style="--i:7"><span class="dot ok"></span><span class="who">S.&nbsp;Kahale</span><span class="what">Renewal — all forms signed</span><span class="when">8:31</span></div>
+      </div>
+      <div class="sorter-group warn">
+        <h3><svg viewBox="0 0 15 15" class="mark" aria-hidden="true"><path d="M7.5 2v7M7.5 12.4v.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Fix list drafted <span class="count">2</span></h3>
+        <div class="srow" style="--i:2"><span class="dot warn"></span><span class="who">J.&nbsp;Reyes</span><span class="what">Missing signature, page 4 — letter in drafts</span><span class="when">7:49</span></div>
+        <div class="srow" style="--i:6"><span class="dot warn"></span><span class="who">A.&nbsp;Souza</span><span class="what">License expired — letter in drafts</span><span class="when">8:22</span></div>
+      </div>
+      <div class="sorter-group exc">
+        <h3><svg viewBox="0 0 15 15" class="mark" aria-hidden="true"><circle cx="7.5" cy="7.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 4.8v3.2M7.5 10.4v.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>For your judgment <span class="count">1</span></h3>
+        <div class="srow" style="--i:4"><span class="dot exc"></span><span class="who">L.&nbsp;Kealoha&#699;a</span><span class="what">Name differs across documents</span><span class="when">8:03</span></div>
+      </div>
+      <figcaption class="sorter-caption">Sorted before you sat down.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ============ the friction ============ -->
+  <section class="friction" id="friction">
+    <div class="section-head">
+      <h2>You know this inbox.</h2>
+    </div>
+    <ul class="pains">
+      <li class="reveal">The application with fourteen attachments — and the wrong form.</li>
+      <li class="reveal">The missing signature nobody notices until Thursday.</li>
+      <li class="reveal">The new hire who shows up to their appointment with an expired license, and has to come back.</li>
+    </ul>
+    <p class="friction-close reveal">Every one of those is another email, another week, another pushed
+    start date. And the people sorting it out are your most experienced reviewers — spending the
+    day re-reading attachments instead of making decisions.</p>
+  </section>
+
+  <!-- ============ national scale ============ -->
+  <section class="scale" id="scale">
+    <div class="section-head">
+      <h2>One inbox among hundreds.</h2>
+    </div>
+    <dl class="stats">
+      <div class="stat reveal">
+        <dt class="num">1.8M+</dt>
+        <dd>aviation workers hold unescorted-access badges
+          <span class="source">TSA estimate, published by the GAO, 2020</span></dd>
+      </div>
+      <div class="stat reveal">
+        <dt class="num">Nearly 440</dt>
+        <dd>federalized airports each run their own badging operation, as federal rule requires
+          <span class="source">TSA · 49 CFR 1542.211</span></dd>
+      </div>
+      <div class="stat reveal">
+        <dt class="num">52,000+</dt>
+        <dd>credential requests move through a single office — LAX — in one year
+          <span class="source">National Safe Skies Alliance, PARAS 0057</span></dd>
+      </div>
+    </dl>
+    <p class="scale-close reveal">Every badge at that scale begins the same way: a packet of
+    paperwork, in an inbox, read by a person, minute by minute. That first read is the work
+    AkamaiForms does.</p>
+  </section>
+
+  <!-- ============ what changes ============ -->
+  <section class="changes" id="changes">
+    <div class="section-head">
+      <h2>AkamaiForms sits in front of that inbox.</h2>
+      <p>It inspects every packet the moment it lands, and files it where it belongs.
+      It doesn't review packets — it gets them ready for the person who does.</p>
+    </div>
+
+    <div class="outcomes">
+      <article class="outcome reveal">
+        <span class="status-chip ok">Review ready</span>
+        <h3>Complete packets are cleared</h3>
+        <p>Every form checked, every field read, every date verified. Cleared packets are waiting
+        in your queue when you sit down — with the checks it passed listed, not hidden.</p>
+      </article>
+      <article class="outcome reveal">
+        <span class="status-chip warn">Needs correction</span>
+        <h3>Broken packets get a fix list</h3>
+        <p>A correction letter written the same minute, naming exactly what's missing or expired —
+        waiting in <em>your</em> drafts folder, addressed and ready. You read it, you send it.
+        The applicant fixes everything in one round instead of three.</p>
+      </article>
+      <article class="outcome reveal">
+        <span class="status-chip exc">Manual exception</span>
+        <h3>Judgment calls stay yours</h3>
+        <p>A name spelled two ways, a date that reads two ways — anything genuinely uncertain is
+        flagged with both readings shown side by side. It is never guessed at.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ trust ============ -->
+  <section class="trust" id="trust">
+    <div class="section-head">
+      <h2>Built like an instrument, not a black box.</h2>
+    </div>
+    <dl class="trust-list">
+      <div class="reveal"><dt>The paperwork stays in your custody.</dt>
+      <dd>AkamaiForms reads the badging mailbox through access your own IT office grants in
+      Microsoft&nbsp;365 — access they can see, limit, and revoke at any time. It touches badging
+      mail and nothing else. And every document it ever opens is written into the logbook, by
+      name and date, so you can account for every piece of paperwork it has touched.</dd></div>
+      <div class="reveal"><dt>Drafts, never sends.</dt>
+      <dd>Correction letters wait in the drafts folder until a person reads and sends them.
+      There is no setting that changes this. And if it ever reads something wrong, you see it
+      in the draft — before the applicant does.</dd></div>
+      <div class="reveal"><dt>A sealed logbook.</dt>
+      <dd>Every packet's story — what was read, what was checked, what was decided, what it
+      cost — is written to a tamper-evident logbook. Your auditors can verify it line by line.
+      When someone asks why a packet was cleared in March, you don't reconstruct it from
+      memory — you point to the line.</dd></div>
+      <div class="reveal"><dt>It knows what it doesn't know.</dt>
+      <dd>Unreadable handwriting and conflicting answers aren't smoothed over. They're flagged
+      for a person, with the evidence attached. That's a feature, not a failure.</dd></div>
+    </dl>
+  </section>
+
+  <!-- ============ the arithmetic ============ -->
+  <section class="arithmetic" id="arithmetic">
+    <div class="section-head">
+      <h2>The arithmetic.</h2>
+      <p>Your office already pays for this inspection. One packet, checked by hand:</p>
+    </div>
+    <p class="equation reveal"><span class="num">18 minutes × $38 an hour</span> = <strong class="num">$11.40 a packet</strong></p>
+    <div class="section-head">
+      <p class="equation-note">Eighteen minutes is a careful first pass. Thirty-eight dollars is
+      a loaded hourly cost for the person doing it — the federal wage survey puts median base pay
+      for compliance officers at $37.70 an hour, before benefits (Bureau of Labor Statistics,
+      May&nbsp;2024). For a mid-size office that's roughly <strong>$27,360 a year</strong> of
+      coordinator attention. AkamaiForms does the same inspection the minute each packet
+      arrives — every packet, every time. If your minutes or your wage differ, put your own
+      numbers in. The shape holds.</p>
+    </div>
+    <div class="table-scroll">
+      <table class="num-table">
+        <thead>
+          <tr><th scope="col">Your office</th><th scope="col" class="r">Packets a year</th><th scope="col" class="r">Hours returned (at 18 min/packet)</th><th scope="col" class="r">Return on the fee</th><th scope="col" class="r">The month's invoice pays for itself in</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Small office</td><td class="r">≈ 500</td><td class="r">150 hrs</td><td class="r">5.3×</td><td class="r">5.7 days</td></tr>
+          <tr><td>Mid-size office</td><td class="r">≈ 2,400</td><td class="r">720 hrs</td><td class="r">5.7×</td><td class="r">5.3 days</td></tr>
+          <tr><td>Large hub</td><td class="r">≈ 10,000</td><td class="r">3,000 hrs</td><td class="r">7.3×</td><td class="r">4.2 days</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">Seven hundred twenty hours is eighteen weeks of one reviewer's year —
+    spent re-reading attachments instead of making decisions. Hours and returns follow from the
+    equation above, at each tier's fee; the worksheet takes your numbers.</p>
+    <div class="integrity reveal">
+      <p><strong>No number on this page was produced by hand.</strong> Every figure — the fee,
+      the return, the payback days — is the output of a machine-checked calculation from stated
+      inputs, carried as an exact fraction from the first step to the last. The full worksheet,
+      every step, is available to any office that asks.</p>
+      <p><strong>And some numbers you will not find here.</strong> There is no published national
+      figure for how many badge applications arrive incomplete — so we do not quote one. Where
+      the public record is silent, so are we.</p>
+    </div>
+  </section>
+
+  <!-- ============ pricing ============ -->
+  <section class="pricing" id="pricing">
+    <div class="section-head">
+      <h2>Plain pricing.</h2>
+      <p>A monthly fee with packets included; overage bills per packet. That's the whole list.</p>
+    </div>
+    <div class="tiers">
+      <article class="tier reveal">
+        <h3>Starter</h3>
+        <p class="price"><span class="amount">$89</span><span class="per">/month</span></p>
+        <ul>
+          <li><strong>50</strong> packets included each month</li>
+          <li><strong>$2.00</strong> per packet after that</li>
+          <li>Works out to <strong>$2.14</strong> a packet at 500 a year — against $11.40 by hand</li>
+          <li>For the small office — around 500 packets a year</li>
+        </ul>
+      </article>
+      <article class="tier featured reveal">
+        <h3>Standard</h3>
+        <p class="price"><span class="amount">$399</span><span class="per">/month</span></p>
+        <ul>
+          <li><strong>250</strong> packets included each month</li>
+          <li><strong>$1.60</strong> per packet after that</li>
+          <li>Works out to <strong>$2.00</strong> a packet at 2,400 a year — against $11.40 by hand</li>
+          <li>For the mid-size office — around 2,400 packets a year</li>
+        </ul>
+      </article>
+      <article class="tier reveal">
+        <h3>Hub</h3>
+        <p class="price"><span class="amount">$1,299</span><span class="per">/month</span></p>
+        <ul>
+          <li><strong>900</strong> packets included each month</li>
+          <li><strong>$1.30</strong> per packet after that</li>
+          <li>Works out to <strong>$1.56</strong> a packet at 10,000 a year — against $11.40 by hand</li>
+          <li>For the large hub — around 10,000 packets a year</li>
+        </ul>
+      </article>
+    </div>
+    <div class="price-method reveal">
+      <h3>How we set the price.</h3>
+      <p>Start from what the work costs by hand: $11.40 a packet. Cap the fee at one-fifth of
+      that, so every dollar of fee returns at least five dollars of recovered time. Hold that
+      cap in every tier — and on every packet past the allowance. Of the value this creates
+      each year, about seven of every eight dollars stays with your office. We keep the eighth.
+      We could price higher and your return would still clear five to one. We didn't.</p>
+      <p>Reading a mid-size office's packets for a year costs us about $96. You are not paying
+      for the reading. You are paying for the checking against your rulebook, the letters, the
+      sealed logbook, and a person who answers.</p>
+    </div>
+    <p class="fine">Packets past the allowance bill per packet — and each one still returns at
+    least five dollars of time per dollar of fee. When your volume outgrows a tier, the
+    arithmetic says so: past 205 packets a month, Standard costs less than Starter plus overage;
+    from 813 a month, Hub costs less than Standard. We will tell you before your invoice does.</p>
+  </section>
+
+  <!-- ============ demo ============ -->
+  <section class="demo" id="demo">
+    <div class="section-head">
+      <h2>See a morning's inbox get sorted.</h2>
+    </div>
+    <figure class="film reveal">
+      <video controls preload="metadata" playsinline width="1280" height="720"
+        poster="media/demo-poster.jpg"
+        aria-label="AkamaiForms demo film — a morning's badging inbox, sorted">
+        <source src="media/akamaiforms-demo-720p.mp4" type="video/mp4">
+        <track kind="captions" src="media/akamaiforms-demo.vtt" srclang="en" label="English">
+      </video>
+    </figure>
+    <div class="film-foot">
+      <p class="film-more">Four minutes, forty-one seconds — a morning's inbox, start to finish.</p>
+      <a class="btn btn-quiet" href="#contact">Ask for a live walkthrough</a>
+    </div>
+  </section>
+
+  <!-- ============ design partner close + contact ============ -->
+  <section class="closer" id="contact">
+    <div class="closer-copy">
+      <h2>We're signing a small design-partner cohort.</h2>
+      <p>A handful of badging offices, onboarded hands-on: your rule profile built with you,
+      your first month run side by side with your current process, pricing locked. If your
+      office wants first access, write to us — a coordinator or a director, either is the
+      right person.</p>
+      <ul class="closer-notes">
+        <li>Your first month runs beside your current process — you compare its calls to yours,
+        packet by packet, before you lean on it.</li>
+        <li>Switch it off and your inbox is exactly as it was. Nothing was migrated in, so there
+        is nothing to unwind.</li>
+        <li>Your note goes straight to our desk — a person replies within one business day.
+        No list, no follow-up sequence.</li>
+      </ul>
+    </div>
+
+    <div class="contact-col">
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="field-row">
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          <p class="field-error" id="cf-name-error" hidden>Your name, so we know who to write back to.</p>
+        </div>
+        <div class="field">
+          <label for="cf-email">Work email</label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+          <p class="field-error" id="cf-email-error" hidden>That address doesn't look complete — check for a typo.</p>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label for="cf-org">Organization <span class="optional">optional</span></label>
+          <input id="cf-org" name="organization" type="text" autocomplete="organization"
+            placeholder="Airport, port, hospital…">
+        </div>
+        <div class="field">
+          <label for="cf-volume">Packets a year <span class="optional">optional</span></label>
+          <select id="cf-volume" name="volume">
+            <option value="" selected>Not sure</option>
+            <option>Under 1,000</option>
+            <option>1,000–5,000</option>
+            <option>More than 5,000</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label for="cf-message">What's on your desk?</label>
+        <textarea id="cf-message" name="message" rows="4" required
+          placeholder="Tell us about your intake — or just say hello."></textarea>
+        <p class="field-error" id="cf-message-error" hidden>A sentence is plenty — just tell us what you're after.</p>
+      </div>
+      <!-- honeypot: hidden from people, filled only by bots -->
+      <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="form-foot">
+        <button type="submit" class="btn btn-primary" id="cf-submit">Send it over</button>
+        <p class="form-error" id="cf-form-error" hidden>That didn't go through. Nothing was lost —
+        your note is still here. Try again in a moment.</p>
+      </div>
+    </form>
+
+    <div class="form-sent" id="form-sent" hidden tabindex="-1">
+      <svg class="plane-lg" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12 21 3.5 14.5 21l-3.9-6.1L2.5 12Zm8.9 2.4 2.6 4.1 4.3-11.9-6.9 7.8Zm6.2-8.6L5.8 11.6l4.6 1.7 7.2-7.5Z"/></svg>
+      <h3>Got it — your note is on its way.</h3>
+      <p>A person replies within one business day. If it's urgent, say so next time and we'll move faster.</p>
+    </div>
+    </div>
+  </section>
+
+  <p class="coda">Your reviewers decide. The paperwork takes care of itself.</p>
+
+</main>
+
+<footer class="footer">
+  <span class="brand-line">
+    <svg class="plane" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12 21 3.5 14.5 21l-3.9-6.1L2.5 12Zm8.9 2.4 2.6 4.1 4.3-11.9-6.9 7.8Zm6.2-8.6L5.8 11.6l4.6 1.7 7.2-7.5Z"/></svg>
+    Akamai<em>Forms</em> — every submission, review ready.
+  </span>
+  <span class="foot-meta">© 2026 AkamaiForms · <a href="#contact">Contact</a></span>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
