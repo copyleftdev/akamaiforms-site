@@ -32,6 +32,10 @@ AkamaiForms is **badge application preflight** software — it sits in front of 
 - A single large office — LAX — reports more than 52,000 credential requests in one year (National Safe Skies Alliance, PARAS 0057).
 - There is no published national figure for how many badge applications arrive incomplete; AkamaiForms does not invent one.
 
+## Reference articles
+
+- [Why badge applications get rejected: the 12 errors airports see most](https://akamaiforms.com/rejected-badge-applications/): the rejection and turn-away reasons published by sixteen US airports (PHX, PHL, CLT, DEN, Houston, SLC, OAK, IAD, SJC, PBI, EGE, OGG, MSP, DTW, NYL) and PARAS 0036, with every source linked — name mismatches across documents, wrong or photocopied IDs, expired documents, incomplete applications, missing aliases, illegible forms, wrong form revisions, wrong appointment types, unfinished training, signatory errors, wrong access requests, and the 30-day clock.
+
 ## Media
 
 - [Demo film, 4:41](https://akamaiforms.com/media/akamaiforms-demo-720p.mp4): a morning's badging inbox sorted start to finish — cleared packets, fix-list letters in drafts, one judgment call flagged.

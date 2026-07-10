@@ -65,6 +65,7 @@ document.getElementById("theme-toggle").addEventListener("click", () => {
 const FORM_ACCESS_KEY = "2a7240fd-8229-44e4-bff4-635c478d46b3"; // "AkamaiForms Contact"
 
 const form = document.getElementById("contact-form");
+if (form) {
 const submitBtn = document.getElementById("cf-submit");
 const formError = document.getElementById("cf-form-error");
 
@@ -154,3 +155,4 @@ form.addEventListener("submit", async (e) => {
     submitBtn.textContent = "Send it over";
   }
 });
+}
